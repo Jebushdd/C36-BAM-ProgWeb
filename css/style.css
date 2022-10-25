@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: montserrat;
+}
+
+/* .navbar{
+    
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 20px;
+}
+
+.links_navegacion{
+    display: flex;
+    gap: 25px;
+}
+
+.links_navegacion li{
+    list-style-type: none;
+}
+
+.links_navegacion li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.links_navegacion li a:hover{
+    color: red;
+    font-weight: 900;
+    background-color: azure;
+}
+
+.titular{
+    font-family: sans-serif;
+}
+
+#pie_de_pagina{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton_arriba{
+    height: 35px;
+}
+
+.foot{
+    display: flex;
+
+}
+
+.foot ul{
+    display: flex;
+    gap: 25px;
+}
+
+#pie_de_pagina ul li{
+    list-style-type: none;
+}
+
+.perrito img{
+    transition: 0.3s ease;
+}
+
+.perrito img:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 700px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
