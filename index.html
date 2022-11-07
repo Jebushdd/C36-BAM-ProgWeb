@@ -1,77 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dejando huellas</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <div>
-            <img height="40px" src="https://img2.freepng.es/20180629/isx/kisspng-dog-paw-logo-clip-art-pattem-5b36f6d2ea1dc9.155962871530328786959.jpg" alt="logo">
-            <span class="dejando_huellas">Dejando huellas</span>
-        </div>
-        
-        <nav class="navbar">
-            <ul class="links_navegacion">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Adopta a tu canino</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="titular">
-            <h1>Bienvenido al mundo de los perritos</h1>
-        </div>
-    </header>
-
-    <main>
-    <section id="bienvenida">
-        <h3 class="subtitulos">Bienvenid@ a este increíble mundo lleno de amor</h3>
-        <div>
-            <img height="220px" src="https://st1.uvnimg.com/dims4/default/ed46d00/2147483647/thumbnail/400x225/quality/75/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fn%2Fno_es_tu_imaginacion_los_perros_si_pueden_identificar_a_las_personas_que_son_malas.jpg" alt="perrito feliz">
-            <p>La vida es mas linda y divertida gracias a ellos.</p>
-        </div>
-    </section>
-
-    <section id="introduccion">
-        <div>
-            <p>
-                "¡En este sitio amamos a los perros! Por eso queremos darles el reconocimiento que se merecen. Aquí te diremos por qué son nuestros mejores amigos!"
-            </p>
-            <p>
-                <ul>
-                    <li>Te aman solo por existir</li>
-                    <li>Siempre te reciben con alegría cuando llegás a casa</li>
-                    <li>Son super leales</li>
-                </ul>
-            </p>
-        </div>
-
-        <article>
-            <h4 class="subtitulo">Conoce la histora de Eli, cacho, rocky y pichichi</h4>
-            <div>
-                <p>
-                    Eli es una chica de Castelar, Buenos Aires. Actualmente vive en su casa con 3 adorables cachorros que comparten una historia de amor.
-                </p>
-                <p>
-                    Cacho, rocky y pichichi fueron rescatados de la calle en un día de mucha tormenta.Eli los encontró en una cajita al costado del camino y desde ese momento las vidas de ambos cambiaron para siempre.
-                </p>
+    <div class="container col bg-light">
+        <div class="row">
+          <div class="col">
+            <img src="./img/izquierda.jpg" class="img-fluid" alt="mmm ricas pizzas">
+          </div>
+          <div class="col-5">
+            <div class="row mt-3" >
+                <img class="img-fluid p-3" src="./img/logo.png" alt="logo">
             </div>
-            <p><a href="#">Lee la historia completa aquí</a></p>
-        </article>
-    </section>
-    </main>
+            <div class="row">
+                <h1 class="display-4 text-center p-y-0">30% Off!</h1>
+                <p class="fs-6 text-muted text-center p-y-0">En tu primer compra</p>
+            </div>
+            <div class="row">
+                <p class="fs-6 text-black text-center">Tu pizza te espera. Fresca, deliciosa y crocante</p>
+            </div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Dejanos tu wpp</label>
+                  <input type="tel" class="form-control" id="InputWpp">
+                
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Localidad</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
+          </div>
+          <div class="col">
+            <img src="./img/derecha.jpg" class="img-fluid" alt="mmmm otra pizza">
+          </div>
+        </div>
+      </div>
 
-    <footer>
-        <ul>
-            <li>Contactanos</li>
-            <li>Trabaja con nosotros</li>
-        </ul>
-    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
